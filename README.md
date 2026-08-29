@@ -1,2 +1,30 @@
 # student-grading-system
-A Flask-based student grading system that allows users to add students, calculate the grade of the student, view details of a student and view all the students at once in a tabular format.
+# Student Grading System
+
+A Flask-based web application for managing student records and calculating grades.
+
+# Features
+
+- Add student details
+- Calculate grades based on marks
+- View individual student details
+- View all students in a tabular format
+
+# Technologies Used
+
+- Python
+- Flask
+- HTML
+
+# Project Structure
+
+```text
+student-grading-system/
+├── app.py
+├── templates/
+│   ├── all.html
+│   ├── base.html
+│   ├── index.html
+│   ├── result.html
+│   └── view.html
+└── requirements.txt
