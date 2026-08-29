@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+{%block title%}
+<title>Alllll</title>
+{%endblock%}
+{% block content %}
+<h2>All STudents</h2>
+<table border="1">
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Grade</th>
+    </tr>
+    {% for roll, data in students.items() %}
+    <tr>
+        <td>{{roll}}</td>
+        <td>{{data.name}}</td>
+        <td>{{data.marks}}</td>
+        <td>{{data.grade}}</td>
+    </tr>
+    {%endfor%}
+</table>
+{% endblock %}

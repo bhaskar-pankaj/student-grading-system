@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}
+        {% endblock %}
+    </head>
+    <body style="text-align:center;font-family:Arial;">
+        <h1> Student Grading System</h1>
+        <nav>
+            <a href="/">Add Student</a>
+            <a href="/view">View Student</a>
+            <a href="/all">View All</a>
+        </nav>
+        <hr>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

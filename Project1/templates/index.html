@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}
+<title>
+    Student Grading
+</title>
+{% endblock %}
+{% block content %}
+<h2>Add Student</h2>
+<form method="POST">
+    Roll No: <input name="roll" type="text" placeholder="Enter your roll number"><br><br>
+    Name: <input name="name" type="text" placeholder="Enter your name"><br><br>
+    Marks: <input name="marks" type="text" placeholder="Enter your marks"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+
+{% endblock %}
